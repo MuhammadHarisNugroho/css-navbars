@@ -35,6 +35,10 @@
     height: 40px;
     border-radius: 6px;
   }
+
+  .logo h2:hover {
+    color: #A6FF96;
+  }
   
   .logo h2 {
     font-size: 20px;
@@ -55,7 +59,7 @@
   }
 
   .navbar a:hover {
-    color: #9400FF;
+    color: #A6FF96;
   }
   
   a.join-link {
@@ -143,7 +147,7 @@
     display: grid;
     width: 180px;
     padding: 8px 0;
-    background: #ffffff;
+    background: #333;
     border-radius: 10px;
     border: 1px solid #e1e1e1;
     box-shadow: 0 40px 40px rgb(0 0 0 / 6%);
@@ -176,6 +180,7 @@
   }
   
   .menu > a:hover {
+    color: #333;
     background: #f5f5f5;
   }
   
