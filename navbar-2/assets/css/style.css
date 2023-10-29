@@ -19,6 +19,12 @@
     font-family: "Euclid Circular A", "Poppins";
   }
   
+  .logo,
+  .links {
+    display: flex;
+    align-items: center;
+  }
+  
   .logo {
     gap: 12px;
   }
