@@ -37,7 +37,36 @@
           </div>
         </div>
         <a href="#" class="join-link"> Join </a>
+        <div class="search">
+            <input type="text" placeholder="Search">
+            <img src="/navbar-2/assets/img/search.png" alt="Search">
+          </div>
+          <div class="burger" id="burger">
+            <img src="/navbar-2/assets/img/burger.png" alt="Burger">
+          </div>
       </div>
     </nav>
+    <script>
+        // Ambil elemen hamburger menu
+const burger = document.querySelector('.burger');
+
+// Ambil elemen yang akan disembunyikan
+const links = document.querySelector('.navbar .links');
+const joinLink = document.querySelector('.join-link');
+const search = document.querySelector('.search');
+
+// Tambahkan event listener untuk mengatur tampilan link saat hamburger menu diklik
+burger.addEventListener('click', () => {
+    if (links.style.display === 'none') {
+        links.style.display = 'flex';
+        joinLink.style.display = 'grid';
+        search.style.display = 'flex';
+    } else {
+        links.style.display = 'none';
+        joinLink.style.display = 'none';
+        search.style.display = 'none';
+    }
+});
+    </script>
   </body>
 </html>
